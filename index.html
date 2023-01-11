@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&display=swap" rel="stylesheet">
+  <link href="styles/all.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles/main.css">
+  <title>Héber Leonard</title>
+  <style>
+    #autoresizing {
+      display: block;
+      overflow: hidden;
+      resize: none;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="naming">
+      <div id="header">SUGARXUST/$: </div>
+      <h>Press - help to get list of commands</h>
+    </div>
+
+    <div id="app">
+    </div>
+  </div>
+
+  <script src="scripts/main.js"></script>
+  <script type="text/javascript">
+    textarea = document.querySelector("#input");
+    textarea.addEventListener('input', autoResize, false);
+
+    function autoResize() {
+      this.style.height = 'auto';
+      this.style.height = this.scrollHeight + 'px';
+    }
+  </script>
+</body>
+
+</html>
