@@ -66,23 +66,21 @@ async function getInputValue() {
     trueValue(value);
 
     createCode("works", "My github page with my projects.)");
-    createCode("about me", "Who am i and what do i do.");
+    createCode("about", "Who am i and what do i do.");
     createCode("social -a", "All my social networks.");
     createCode("clear", "Clean the terminal.");
 
   }
   else if (value === "works") {
     trueValue(value);
-    createText("Sourav is a pro-active learner and is fluent with web-devlopment technologies. He has hands on experience in python and C/C++. His projects focus on reliability and feasiblity. He is currently learning <span class = 'blue'>tailwind.js and typescript</span>. He is also a opensource enthuisiast and has made contributions to some of the listed down repositories. Most of his works can be found on Github while some of them are listed below.")
     createProj("<a class='inner' href='https://github.com/SUGARXUST' target='_blank'>FLAGGIT</a>", "UI/UX design of a web application which geo-locates water quality and reports the same");
     createProj("<a class='inner' href='https://github.com/SUGARXUST' target='_blank'>Geo-Dude</a>", "My github page with my projects.");
     createProj("<a class='inner' href='https://github.com/SUGARXUST' target='_blank'>QRIE</a>", "My github page with my projects.");
     createProj("contributions", "<a class='inner' href='https://github.com/SUGARXUST' target='_blank'>QRIE </a><br> <a class='inner' href='https://github.com/SUGARXUST' target='_blank'>Geo-Dude</a>")
   }
-  else if (value === "about me") {
+  else if (value === "about") {
     trueValue(value);
-    createText("Oi, meu nome é Héber ;)")
-    createText("Desenvolvedor atualmente focado em todo o ecossistema Javascript. Utilizando principalmente a stack <span class='blue'>Node, React e React Native </span>por permitir criar aplicações de forma descomplicada e produtiva.")
+    createText("Sourav is a pro-active learner and is fluent with web-devlopment technologies. He has hands on experience in python and C/C++. His projects focus on reliability and feasiblity. He is currently learning <span class = 'blue'>tailwind.js and typescript</span>. He is also a opensource enthuisiast and has made contributions to some of the listed down repositories. Most of his works can be found on Github while some of them are listed below.")
   }
   else if (value === "social -a") {
     trueValue(value);

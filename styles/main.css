@@ -14,15 +14,15 @@
 }
 
 #header {
-  font-size: 70px;
+  font-size: 64px;
   display: flexbox;
   color: #8e1eff;
   font-family: 'Fira Code', monospace;
-  font-style: italic;
+  font-style: bold;
 }
 
 h {
-  font-size: 22px;
+  font-size: 21px;
   display: flex;
   color: #bebebe;
   margin: -8px 0 0 0;
