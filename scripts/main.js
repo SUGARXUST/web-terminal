@@ -84,7 +84,7 @@ async function getInputValue() {
   }
   else if (value === "social -a") {
     trueValue(value);
-    createText("<a href='https://github.com/heberleonard2' target='_blank'><i class='fab fa-github white'></i> github.com/heberleonard2</a>")
+    createText("<a href='https://github.com/SUGARXUST' target='_blank'><i class='fab fa-github white'></i> github.com/SUGARXUST</a>")
     createText("<a href='https://www.linkedin.com/in/acharya-sourav/' target='_blank'><i class='fab fa-linkedin-in white'></i> linkedin.com/in/acharya-sourav</a>")
     createText("<a href='https://twitter.com/SouravA05117721' target='_blank'><i class='fab fa-twitter white'></i> SouravA05117721</a>")
   }
