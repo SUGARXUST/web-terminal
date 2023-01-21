@@ -62,7 +62,7 @@ function removeInput() {
 async function getInputValue() {
 
   const value = document.querySelector("input").value;
-  if (value === "-help" || value === "-h") {
+  if (value === "- help" || value === "-h") {
     trueValue(value);
 
     createCode("works", "My github page with my projects.)");
